@@ -8,7 +8,7 @@ app.use(express.static('views'))
 app.get('/' , (req, res) => {
     res.render('index', {
         pageTitle: "Ashu Portfolio",
-        name: "Ashu",
+        name: "Ashu Sagar",
         currentDate: new Date().toDateString()
     })
 });
